@@ -574,10 +574,10 @@ while True:
 
             msg=u["message"]
 
-            if msg.get(
-                "message_thread_id"
-            )!=THREAD_ID:
-                continue
+#            if msg.get(
+#                "message_thread_id"
+#            )!=THREAD_ID:
+#                continue
 
             handle(msg)
 
