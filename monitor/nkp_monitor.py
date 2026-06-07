@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")# =========================
 # CONFIG
 # =========================
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 CHAT_ID = -1003787140439
 THREAD_ID = 26
